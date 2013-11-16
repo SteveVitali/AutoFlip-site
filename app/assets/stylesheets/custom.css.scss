@@ -1,0 +1,25 @@
+
+body {
+  padding-top: 20px;
+
+}
+
+.container-narrow {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.jumbotron {
+  margin: 60px 0;
+  text-align: center;
+
+  h1 {
+    font-size: 72px;
+    line-height: 1;
+  }
+
+  btn {
+    font-size: 22px;
+    padding: 14px 24px;
+  }
+}
