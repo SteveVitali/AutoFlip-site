@@ -1,82 +1,199 @@
 
-<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+  <body style="">
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle navigation</span>
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">AutoFlip</a>
+          <a class="navbar-brand" href="https://googledrive.com/host/0B-zoakuvwSsNeXg4YkJVQWtJenM/index.html#"><b>AUTOFLIP</b></a>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-          <ul class="nav navbar-nav">
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="https://googledrive.com/host/0B-zoakuvwSsNeXg4YkJVQWtJenM/index.html#">Already a member?</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container -->
-    </nav>
-
-    <div class="header-image" >
-
-      <div class="headline">
-        <div class="container">
-          <h1></h1>
-          <h2>		
-          	
-	       </h2>
-          <a class="btn btn-large btn-primary" href="http://www.shailshetye.x10.mx/AutoFlipFinal.apk">
-           Get AutoFlip for Android
-          </a>
-        </div>
+        </div><!--/.nav-collapse -->
       </div>
+    </div>
 
-    </div><!-- /header-image -->
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>AutoFlip: Notecards reimagined.</h1>
+					<form class="form-inline" role="form">
+					  <div class="form-group">
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+					  </div>
+					  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+					</form>					
+				</div><!-- /col-lg-6 -->
+				<div class="col-lg-6">
+					<%= image_tag( 'ipad-hand.png', :class => "img-responsive") %>
+				</div><!-- /col-lg-6 -->
+				
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>Your Landing Page<br>Looks Wonderful Now.</h1>
+				<h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt centered">
+			<div class="col-lg-4">
+				<%= image_tag('ser01.png', :width => "180") %>
+				<h4>1 - Browser Compatibility</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+			</div><!--/col-lg-4 -->
 
-    <div class="container">
+			<div class="col-lg-4">
+				<%= image_tag('ser02.png', :width => "180") %>
+				<h4>2 - Email Campaigns</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
 
-      <!-- START THE FEATURETTES -->
+			</div><!--/col-lg-4 -->
 
-      <hr class="featurette-divider">
+			<div class="col-lg-4">
+				<%= image_tag('ser03.png', :width => "180") %>
+				<h4>3 - Gather Your Notes</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
 
-      <div class="featurette" id="about">
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+	
+	<div class="container">
+		<hr>
+		<div class="row centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form class="form-inline" role="form">
+				  <div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+				  </div>
+				  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+				</form>					
+			</div>
+			<div class="col-lg-3"></div>
+		</div><!-- /row -->
+		<hr>
+	</div><!-- /container -->
+	
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>AutoFlip is for Everyone.</h1>
+				<h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+			</div>
+		</div><!-- /row -->
+	
+		<!-- -- CAROUSEL ---->
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class=""></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2" class=""></li>
+				  </ol>
+				
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item">
+				    <%= image_tag('p01.png') %>
+				    </div>
+				    <div class="item active">
+				    <%= image_tag('p02.png') %>
+				    </div>
+				    <div class="item">
+				    <%= image_tag('p03.png') %>
+				    </div>
+				  </div>
+				</div>			
+			</div><!-- /col-lg-8 -->
+		</div><!-- /row -->
+	</div><!-- --/container ---->
+	
+	<div class="container">
+		<hr>
+		<div class="row centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form class="form-inline" role="form">
+				  <div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+				  </div>
+				  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+				</form>					
+			</div>
+			<div class="col-lg-3"></div>
+		</div><!-- /row -->
+		<hr>
+	</div><!-- /container -->
 
-        <img class="featurette-image img-circle img-responsive pull-right" src="http://placecreature.com/500/500">
-        <h2 class="featurette-heading">AutoFlip <span class="text-muted">The First Heading</span></h2>
-        <p class="lead">Have you ever prepared talking points and had issues keeping your stack of index cards in order? Or given a speech and looked down to find out that your bullets are too small to read, out of order, or too hard to follow? We aimed to solve these very issues with AutoFlip. AutoFlip is a virtual notecard app that utilizes various technologies, including cloud computing and voice recognition to always have the most recent and relevant point for you to glance down at.</p>
-      </div>
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>Our Awesome Team.<br>Design Lovers.</h1>
+				<h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt centered">
+			<div class="col-lg-3">
+				<%= image_tag('pic1.jpg', :class => 'img-circle', :width => "140") %>
+				<h4>Rohan Shah</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+			</div><!--/col-lg-4 -->
 
-      <hr class="featurette-divider">
+			<div class="col-lg-3">
+				<%= image_tag('pic2.jpg', :class => 'img-circle', :width => "140") %>
+				<h4>Steve Vitali</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+			</div><!--/col-lg-4 -->
 
-      <div class="featurette" id="services">
-        <img class="featurette-image img-circle img-responsive pull-left" src="http://placecreature.com/500/500">
-        <h2 class="featurette-heading">The Second Heading <span class="text-muted">Is Pretty Cool Too.</span></h2>
-        <p class="lead">Have you ever prepared talking points and had issues keeping your stack of index cards in order? Or given a speech and looked down to find out that your bullets are too small to read, out of order, or too hard to follow? We aimed to solve these very issues with AutoFlip. AutoFlip is a virtual notecard app that utilizes various technologies, including cloud computing and voice recognition to always have the most recent and relevant point for you to glance down at.</p>
-      </div>
+			<div class="col-lg-3">
+				<%= image_tag('pic3.jpg', :class => 'img-circle', :width => "140") %>
+				<h4>Shashank Bhargava</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+			</div><!--/col-lg-4 -->
 
-      <hr class="featurette-divider">
+			<div class="col-lg-3">
+				<%= image_tag('pic4.jpg', :class => 'img-circle', :width => "140") %>
+				<h4>Sam Moore</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+	
+	<div class="container">
+		<hr>
+		<div class="row centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form class="form-inline" role="form">
+				  <div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+				  </div>
+				  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+				</form>					
+			</div>
+			<div class="col-lg-3"></div>
+		</div><!-- /row -->
+		<hr>
+		<p class="centered">Copyright PointOne Development 2014</p>
+	</div><!-- /container -->
 
-      <div class="featurette" id="contact">
-        <img class="featurette-image img-circle img-responsive pull-right" src="http://placecreature.com/500/500">
-        <h2 class="featurette-heading">The Third Heading <span class="text-muted">Will Seal the Deal.</span></h2>
-        <p class="lead">Have you ever prepared talking points and had issues keeping your stack of index cards in order? Or given a speech and looked down to find out that your bullets are too small to read, out of order, or too hard to follow? We aimed to solve these very issues with AutoFlip. AutoFlip is a virtual notecard app that utilizes various technologies, including cloud computing and voice recognition to always have the most recent and relevant point for you to glance down at.</p>
-      </div>
-
-      <!-- /END THE FEATURETTES -->
-
-      <hr>
-
-      <!-- FOOTER -->
-      <footer>
-         <p>&copy; AutoFlip 2013</p>
-      </footer>
-      <!-- /END OF FOOTER -->
-
-
-
-    </div><!-- /container -->
+</body></html>
