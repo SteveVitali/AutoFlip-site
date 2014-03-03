@@ -1,8 +1,46 @@
 <html>
+
 <head>
 <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<!-- Browsers -->
+{* Mobile Viewport Fix j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
+  - device-width: Full width of the screen
+  - initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
+  - maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width *}
+<meta name="viewport" content="width=device-width">
+
+{* Grab Google CDN's jQuery. fall back to local if necessary *}
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+<script>window.jQuery || document.write("/js/vendors/jquery-1.8.3.min.js'>\x3C/script>")</script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+<script>window.jQuery || document.write("/js/vendors/jquery-ui-1.9.2.min.js'>\x3C/script>")</script>
+
+{* Traditional favicon size: 16x16 or 32x32, with optional transparency *}
+<link rel="icon" type="image/vnd.microsoft.icon" href="/img/icon/favicon.png">
+<link rel="shortcut icon" type="image/x-icon" href="/img/icon/favicon.ico">
+<link rel="apple-touch-icon" href="/img/icon/apple-touch-icon-57-precomposed.png">
+{* iOS's Web Clip Icon:
+   - Size: 57x57 older iPhones, 72x72 iPads, 114x114 iPhone4 retina display
+   - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png *}
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="cleartype" content="on">
+
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if IE 6]><link href="/css/plugin/bootstrap/bootstrap-ie6.css" rel="stylesheet"><![endif]-->
+<!--[if IE 8]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
 </head>
+
 <body>
 	<!-- Fixed navbar -->
     <div class="navbar navbar-default navbar-fixed-top">
@@ -118,7 +156,7 @@
 		<div class="row mt centered">
 			<div class="col-lg-6 col-lg-offset-3">
 				<h1>Our Awesome Team.<br>Design Lovers.</h1>
-				<h3>We value design and simplicity. Behind the seemless user interface is lots of intense algorithms constantly being crunched to make sure you have the most successful presentation possible. Our team has worked very hard and we hope that you love AutoFlip.</h3>
+				<h3>We value design and simplicity. Behind the seamless user interface is lots of intense algorithms constantly being crunched to make sure you have the most successful presentation possible. Our team has worked very hard and we hope that you love AutoFlip.</h3>
 			</div>
 		</div><!-- /row -->
 		
@@ -144,7 +182,7 @@
 			<div class="col-lg-3">
 				<%= image_tag('pic3.jpg', :class => 'img-circle', :width => "140", :height => "180") %>
 				<h4>Shashank Bhargava</h4>
-				<p>Shashank works on marketting and handles many of the interactions with constituents involved with AutoFlip on the backend. He is also hard at work on making AutoFlip cross platform.</p>
+				<p>Shashank works on marketing and handles many of the interactions with constituents involved with AutoFlip on the backend. He is also hard at work on making AutoFlip cross platform.</p>
 				<!-- Extra Contact icons
 				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
 				-->
@@ -196,6 +234,14 @@
 
 <script>document.cookie='resolution=
 '+Math.max(screen.width,screen.height)+("devicePixelRatio" in window ? ","+devicePixelRatio : ",1")+'; path=/';
+</script>
+
+<script
+src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
+</script>
+
+<script
+src="js/bootstrap.min.js">	
 </script>
 
 </body>
