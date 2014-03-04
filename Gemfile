@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
+gem 'google-analytics-rails'
 
 gem "nokogiri", "~> 1.6.0"
 
