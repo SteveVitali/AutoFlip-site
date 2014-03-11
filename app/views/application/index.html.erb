@@ -8,25 +8,10 @@
 <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <!-- Browsers -->
-{* Mobile Viewport Fix j.mp/mobileviewport & davidbcalhoun.com/2010/viewport-metatag
-  - device-width: Full width of the screen
-  - initial-scale = 1.0 retains dimensions instead of zooming out if page height > device height
-  - maximum-scale = 1.0 retains dimensions instead of zooming in if page width < device width *}
 <meta name="viewport" content="width=device-width">
-
-{* Grab Google CDN's jQuery. fall back to local if necessary *}
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
-<script>window.jQuery || document.write("/js/vendors/jquery-1.8.3.min.js'>\x3C/script>")</script>
-<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
-<script>window.jQuery || document.write("/js/vendors/jquery-ui-1.9.2.min.js'>\x3C/script>")</script>
-
-{* Traditional favicon size: 16x16 or 32x32, with optional transparency *}
 <link rel="icon" type="image/vnd.microsoft.icon" href="/img/icon/favicon.png">
 <link rel="shortcut icon" type="image/x-icon" href="/img/icon/favicon.ico">
 <link rel="apple-touch-icon" href="/img/icon/apple-touch-icon-57-precomposed.png">
-{* iOS's Web Clip Icon:
-   - Size: 57x57 older iPhones, 72x72 iPads, 114x114 iPhone4 retina display
-   - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png *}
 
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -243,6 +228,14 @@ src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js">
 <script
 src="js/bootstrap.min.js">	
 </script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+
+<script>window.jQuery || document.write("/js/vendors/jquery-1.8.3.min.js'>\x3C/script>")</script>
+
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+
+<script>window.jQuery || document.write("/js/vendors/jquery-ui-1.9.2.min.js'>\x3C/script>")</script>
 
 </body>
 </html>
